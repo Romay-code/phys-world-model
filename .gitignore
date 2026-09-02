@@ -27,7 +27,6 @@ venv/
 /_publish/
 
 # 工具与编辑器
-/.claude/
 .idea/
 .vscode/
 .DS_Store
