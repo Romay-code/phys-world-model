@@ -1,0 +1,63 @@
+{
+  "site": "bh",
+  "N": 26,
+  "F": 9,
+  "T": 27177,
+  "n_dev": {
+    "chiller": 5,
+    "tower": 10,
+    "coolpump": 5,
+    "coldpump": 5
+  },
+  "spec": {
+    "W": 16,
+    "H": 48,
+    "embargo": 64,
+    "ratios": [
+      0.7,
+      0.1,
+      0.2
+    ],
+    "split_mode": "blocked",
+    "block_len": 480
+  },
+  "n_segments": 1,
+  "seg_lens": [
+    27177
+  ],
+  "n_windows": {
+    "train": 12019,
+    "val": 1445,
+    "test": 2890
+  },
+  "leak_check": {
+    "rows_train": 14665,
+    "overlap_train_val": 0,
+    "overlap_train_test": 0,
+    "rows_val": 1760,
+    "overlap_val_test": 0,
+    "rows_test": 3520
+  },
+  "bounds": [
+    480,
+    10
+  ],
+  "power_src": {
+    "chiller": "per_device",
+    "tower": "per_device",
+    "coolpump": "per_device",
+    "coldpump": "per_device"
+  },
+  "per_device_label_n": {
+    "chiller": 5,
+    "tower": 10,
+    "coolpump": 5,
+    "coldpump": 5
+  },
+  "phantom_n": {
+    "chiller": 0,
+    "tower": 0,
+    "coolpump": 0,
+    "coldpump": 0
+  }
+}

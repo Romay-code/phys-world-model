@@ -1,0 +1,63 @@
+{
+  "site": "pc2",
+  "N": 40,
+  "F": 9,
+  "T": 32065,
+  "n_dev": {
+    "chiller": 7,
+    "tower": 18,
+    "coolpump": 7,
+    "coldpump": 7
+  },
+  "spec": {
+    "W": 16,
+    "H": 48,
+    "embargo": 64,
+    "ratios": [
+      0.7,
+      0.1,
+      0.2
+    ],
+    "split_mode": "blocked",
+    "block_len": 480
+  },
+  "n_segments": 1,
+  "seg_lens": [
+    32065
+  ],
+  "n_windows": {
+    "train": 14130,
+    "val": 1734,
+    "test": 3468
+  },
+  "leak_check": {
+    "rows_train": 17217,
+    "overlap_train_val": 0,
+    "overlap_train_test": 0,
+    "rows_val": 2112,
+    "overlap_val_test": 0,
+    "rows_test": 4224
+  },
+  "bounds": [
+    480,
+    10
+  ],
+  "power_src": {
+    "chiller": "per_device",
+    "tower": "aggregate",
+    "coolpump": "aggregate",
+    "coldpump": "aggregate"
+  },
+  "per_device_label_n": {
+    "chiller": 7,
+    "tower": 0,
+    "coolpump": 0,
+    "coldpump": 0
+  },
+  "phantom_n": {
+    "chiller": 0,
+    "tower": 0,
+    "coolpump": 0,
+    "coldpump": 0
+  }
+}

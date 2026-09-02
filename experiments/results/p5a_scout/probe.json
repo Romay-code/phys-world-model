@@ -1,0 +1,342 @@
+{
+ "hx": {
+  "site": "hx",
+  "held_out": true,
+  "rows": [
+   {
+    "target": "approach",
+    "trivial": true,
+    "note": "= tower_out − wet_bulb，两条输入通道的线性组合",
+    "n_train": 3623,
+    "n_val": 2023,
+    "r2_z": -0.4094445850305355,
+    "r2_raw": 0.9999930885411047,
+    "gain": -1.4094376735716403
+   },
+   {
+    "target": "plr",
+    "trivial": true,
+    "note": "本身就是一条输入通道",
+    "n_train": 3840,
+    "n_val": 2023,
+    "r2_z": 0.27251946932994553,
+    "r2_raw": 0.9397691464354427,
+    "gain": -0.6672496771054972
+   },
+   {
+    "target": "cop_carnot",
+    "trivial": false,
+    "note": "两条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 2023,
+    "r2_z": 0.9526698445710479,
+    "r2_raw": 0.8057696386542901,
+    "gain": 0.1469002059167578
+   },
+   {
+    "target": "eps_tower",
+    "trivial": false,
+    "note": "三条温度通道的非线性比值",
+    "n_train": 3623,
+    "n_val": 2023,
+    "r2_z": 0.32975439363810466,
+    "r2_raw": 0.3508519669607315,
+    "gain": -0.02109757332262685
+   },
+   {
+    "target": "ntu",
+    "trivial": false,
+    "note": "eps 的对数变换",
+    "n_train": 3623,
+    "n_val": 2023,
+    "r2_z": 0.24543621799366067,
+    "r2_raw": 0.359611809517948,
+    "gain": -0.11417559152428736
+   },
+   {
+    "target": "dt_evap",
+    "trivial": true,
+    "note": "两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 2023,
+    "r2_z": 0.7324074383752118,
+    "r2_raw": 0.7086933623431009,
+    "gain": 0.023714076032110953
+   }
+  ],
+  "n_pass_nontrivial": 1,
+  "n_pass_all": 2
+ },
+ "tx": {
+  "site": "tx",
+  "held_out": false,
+  "rows": [
+   {
+    "target": "approach",
+    "trivial": true,
+    "note": "= tower_out − wet_bulb，两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 2206,
+    "r2_z": -0.13546686847915446,
+    "r2_raw": 0.999999886811632,
+    "gain": -1.1354667552907864
+   },
+   {
+    "target": "plr",
+    "trivial": true,
+    "note": "本身就是一条输入通道",
+    "n_train": 3840,
+    "n_val": 1886,
+    "r2_z": -0.17192847640293207,
+    "r2_raw": 0.5482581635233518,
+    "gain": -0.7201866399262838
+   },
+   {
+    "target": "cop_carnot",
+    "trivial": false,
+    "note": "两条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 1886,
+    "r2_z": -3.536258309971781,
+    "r2_raw": -3.888721866019682,
+    "gain": 0.35246355604790125
+   },
+   {
+    "target": "eps_tower",
+    "trivial": false,
+    "note": "三条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 1886,
+    "r2_z": -5.877858607848636,
+    "r2_raw": 0.52631206192347,
+    "gain": -6.404170669772106
+   },
+   {
+    "target": "ntu",
+    "trivial": false,
+    "note": "eps 的对数变换",
+    "n_train": 3840,
+    "n_val": 1886,
+    "r2_z": -5.024671992175653,
+    "r2_raw": 0.3102761027052897,
+    "gain": -5.334948094880943
+   },
+   {
+    "target": "dt_evap",
+    "trivial": true,
+    "note": "两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 1886,
+    "r2_z": -0.6028441213020546,
+    "r2_raw": 0.19692285742888072,
+    "gain": -0.7997669787309353
+   }
+  ],
+  "n_pass_nontrivial": 0,
+  "n_pass_all": 0
+ },
+ "yb3": {
+  "site": "yb3",
+  "held_out": false,
+  "rows": [
+   {
+    "target": "approach",
+    "trivial": true,
+    "note": "= tower_out − wet_bulb，两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 2249,
+    "r2_z": -2.7095020016557174,
+    "r2_raw": 0.9999989357395117,
+    "gain": -3.7095009373952292
+   },
+   {
+    "target": "plr",
+    "trivial": true,
+    "note": "本身就是一条输入通道",
+    "n_train": 3840,
+    "n_val": 2249,
+    "r2_z": -4.4190518140873305,
+    "r2_raw": 0.2748508176806004,
+    "gain": -4.693902631767931
+   },
+   {
+    "target": "cop_carnot",
+    "trivial": false,
+    "note": "两条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 2249,
+    "r2_z": -0.41718032881430633,
+    "r2_raw": 0.3934396216903223,
+    "gain": -0.8106199505046287
+   },
+   {
+    "target": "eps_tower",
+    "trivial": false,
+    "note": "三条温度通道的非线性比值",
+    "n_train": 3262,
+    "n_val": 2249,
+    "r2_z": -23.6276261504193,
+    "r2_raw": 0.5714862516762816,
+    "gain": -24.19911240209558
+   },
+   {
+    "target": "ntu",
+    "trivial": false,
+    "note": "eps 的对数变换",
+    "n_train": 3262,
+    "n_val": 2249,
+    "r2_z": -89.06208552011157,
+    "r2_raw": 0.6970129738070026,
+    "gain": -89.75909849391857
+   },
+   {
+    "target": "dt_evap",
+    "trivial": true,
+    "note": "两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 2249,
+    "r2_z": -43.46988483968552,
+    "r2_raw": -0.0849224554055863,
+    "gain": -43.38496238427993
+   }
+  ],
+  "n_pass_nontrivial": 0,
+  "n_pass_all": 0
+ },
+ "pb1": {
+  "site": "pb1",
+  "held_out": false,
+  "rows": [
+   {
+    "target": "approach",
+    "trivial": true,
+    "note": "= tower_out − wet_bulb，两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 2312,
+    "r2_z": 0.8695089478521805,
+    "r2_raw": 0.9999999815205305,
+    "gain": -0.13049103366835002
+   },
+   {
+    "target": "plr",
+    "trivial": true,
+    "note": "本身就是一条输入通道",
+    "n_train": 3814,
+    "n_val": 2300,
+    "r2_z": 0.7051124912895368,
+    "r2_raw": 0.9114318722373309,
+    "gain": -0.20631938094779412
+   },
+   {
+    "target": "cop_carnot",
+    "trivial": false,
+    "note": "两条温度通道的非线性比值",
+    "n_train": 175,
+    "n_val": 548,
+    "r2_z": -1.390786613691474,
+    "r2_raw": -0.38620411042591907,
+    "gain": -1.0045825032655549
+   },
+   {
+    "target": "eps_tower",
+    "trivial": false,
+    "note": "三条温度通道的非线性比值",
+    "n_train": 175,
+    "n_val": 548,
+    "r2_z": -1.5266936638030906,
+    "r2_raw": -6.32277586402265,
+    "gain": 4.796082200219559
+   },
+   {
+    "target": "ntu",
+    "trivial": false,
+    "note": "eps 的对数变换",
+    "n_train": 175,
+    "n_val": 548,
+    "r2_z": -2.802774556707067,
+    "r2_raw": -7.156060300361489,
+    "gain": 4.353285743654421
+   },
+   {
+    "target": "dt_evap",
+    "trivial": true,
+    "note": "两条输入通道的线性组合",
+    "n_train": 3839,
+    "n_val": 2312,
+    "r2_z": 0.2211217475053181,
+    "r2_raw": 0.7923254003340485,
+    "gain": -0.5712036528287304
+   }
+  ],
+  "n_pass_nontrivial": 0,
+  "n_pass_all": 2
+ },
+ "pc3": {
+  "site": "pc3",
+  "held_out": true,
+  "rows": [
+   {
+    "target": "approach",
+    "trivial": true,
+    "note": "= tower_out − wet_bulb，两条输入通道的线性组合",
+    "n_train": 0,
+    "n_val": 0,
+    "r2_z": NaN,
+    "r2_raw": NaN,
+    "gain": NaN
+   },
+   {
+    "target": "plr",
+    "trivial": true,
+    "note": "本身就是一条输入通道",
+    "n_train": 0,
+    "n_val": 0,
+    "r2_z": NaN,
+    "r2_raw": NaN,
+    "gain": NaN
+   },
+   {
+    "target": "cop_carnot",
+    "trivial": false,
+    "note": "两条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 1734,
+    "r2_z": 0.14287047007160125,
+    "r2_raw": 0.777827201255727,
+    "gain": -0.6349567311841258
+   },
+   {
+    "target": "eps_tower",
+    "trivial": false,
+    "note": "三条温度通道的非线性比值",
+    "n_train": 3840,
+    "n_val": 1734,
+    "r2_z": 0.7878072758104699,
+    "r2_raw": 0.7702279606606354,
+    "gain": 0.017579315149834573
+   },
+   {
+    "target": "ntu",
+    "trivial": false,
+    "note": "eps 的对数变换",
+    "n_train": 3840,
+    "n_val": 1734,
+    "r2_z": 0.7241204383710506,
+    "r2_raw": 0.7140700854200823,
+    "gain": 0.010050352950968233
+   },
+   {
+    "target": "dt_evap",
+    "trivial": true,
+    "note": "两条输入通道的线性组合",
+    "n_train": 3840,
+    "n_val": 1734,
+    "r2_z": 0.6052121019731421,
+    "r2_raw": 0.7410737209642514,
+    "gain": -0.13586161899110927
+   }
+  ],
+  "n_pass_nontrivial": 2,
+  "n_pass_all": 2
+ }
+}
